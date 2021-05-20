@@ -1,4 +1,4 @@
-FROM ubuntu as baseline
+FROM ubuntu:groovy-20210416 as baseline
 
 LABEL maintainer="Arsenio Aguirre" \
       email="a_aguirre117@hotmail.com"
