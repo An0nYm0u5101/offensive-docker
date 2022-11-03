@@ -1,4 +1,4 @@
-FROM ubuntu as baseline
+FROM ubuntu:kinetic-20220830 as baseline
 
 LABEL maintainer="Arsenio Aguirre" \
       email="a_aguirre117@hotmail.com"
